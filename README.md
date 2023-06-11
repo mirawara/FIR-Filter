@@ -2,6 +2,10 @@
 
 <p align="center"><img src="https://img.shields.io/badge/VHDL-Latest-ED1C24.svg?style=flat&amp;logo=vhdl&amp;logoColor=white" alt="project-image"></p>
 
+<p align="center">
+    <img src="schema/schema.png" alt="Schema">
+</p>
+
 <p id="description">This repository contains the VHDL implementation of a FIR (Finite Impulse Response) filter with N=7. The FIR filter is used to process digital signals. It is a non-recursive digital filter whose behavior is defined by a finite sequence of coefficients known as the impulse response.
 
 The implemented filter in this project is designed for a specific sampling frequency. The normalized cutoff frequency is set to 0.2 relative to the sampling frequency, determining the filter's transition band.
